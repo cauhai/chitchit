@@ -1,0 +1,40 @@
+{
+  "name": "chitchit",
+  "version": "1.0.0",
+  "description": "Animations with GSAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test yet!\"",
+    "start": "webpack serve",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cauhai/chitchit.git"
+  },
+  "keywords": [
+    "gsap"
+  ],
+  "author": "Hai",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}

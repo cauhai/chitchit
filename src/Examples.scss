@@ -1,0 +1,33 @@
+.examples {
+  .example {
+    border: 4px dashed goldenrod;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .container {
+    border: 2px dotted aqua;
+    width: 20rem;
+    height: 6rem;
+    margin-left: 4rem;
+  }
+  .box, .disc {
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+  }
+  .box {
+    width: 6rem;
+    height: 4rem;
+    border-radius: 12px;
+    background-color: yellowgreen;    
+  }
+  .disc {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background-color: coral;
+  }
+}
