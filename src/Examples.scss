@@ -29,5 +29,19 @@
     height: 5rem;
     border-radius: 5rem;
     background-color: coral;
+    opacity: 0.6;
   }
+  .disc.sm {
+    width: 2rem;
+    height: 2rem;
+  }
+  .disc.md {
+    width: 4rem;
+    height: 4rem;
+  }
+  .disc.lg {
+    width: 6rem;
+    height: 6rem;
+  }
+
 }
